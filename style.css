@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+	background-color: black;
+}
+
+div#board {
+	position: relative;
+	width: 1024px;
+	height: 863px;
+	margin: auto;
+	background: url("image/board.jpg") no-repeat;
+}
+
+#messageArea {
+	font-family: 'Amatic SC', cursive;
+	position: absolute;
+	top: 40px;
+	left: 170px;
+	font-size: 2em;
+	font-weight: bolder;
+	color: rgb(91, 218, 0);
+}
+
+table {
+	position: absolute;
+	left: 173px;
+	top: 98px;
+	border-spacing: 0px;
+}
+
+td {
+	width: 94px;
+	height: 94px;
+}
+
+form {
+	position: absolute;
+	height: 52px;
+	width: 164px;
+	bottom: -50px;
+	right: 178px;
+	padding: 15px;
+	border-radius: .2em;
+	background-color: rgb(44, 106, 0);
+}
+
+form input {
+	background-color: rgb(19, 46, 0);
+	border-color: rgb(64, 136, 13);
+	
+}
+
+input[type = text] {
+	position: absolute;
+	font-size: 1.6em;
+	height: 50px;
+	width: 80px;
+	border: none;
+	
+}
+
+input[type = button] {
+	position: absolute;
+	bottom: 15px;
+	right: 14px;
+	height: 52px;
+	width: 70px;
+	cursor: pointer;
+	border: none;
+	color: rgb(190, 0, 0);
+	margin-left: .1em;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+}
+
+.hit {
+	background: url("image/ship.png") no-repeat center center;
+}
+
+.miss {
+	background: url("image/miss.png") no-repeat center center;
+}
